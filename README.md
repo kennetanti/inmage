@@ -13,7 +13,7 @@ or
 docker run -it inmage PA garcia jose
 
 
-docker run -it inmage <state> <last name> [first name]
+docker run -it inmage state last name [first name]
 
 # boring way
 apt -y update; apt -y install git python-pip;
@@ -28,7 +28,7 @@ python inmage.py PA garcia jose
 
 
 
-python inmage.py <state> <last name> [first name]
+python inmage.py state last name [first name]
 
 # NOTICE
 this tool is basic as shit and basically useless.
